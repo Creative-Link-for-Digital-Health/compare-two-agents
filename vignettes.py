@@ -1,0 +1,28 @@
+def get(who):
+    if who == "Holt":
+        vignette = """Holt is a thirteen-year-old boy who has been living in a residential group home for the past eight months. When he was eighteen months old, Holt was removed from his mother and placed in a foster home; his mother surrendered her rights a month later.  Holt has no other known relatives and has been in fourteen different placements within the foster care system due to behavioural problems.  Holt was placed in two previous group homes before his current one, and resided in them for six and four months, respectively. 
+ 
+Holt is currently receiving psychiatric services, which include weekly individual and group therapy.  He has been assessed by a psychiatrist within the last month and was not prescribed any medication.  Holt is currently diagnosed with Oppositional Defiant Disorder and has a history of being diagnosed with Adjustment Disorder and Attention Deficit Hyperactivity Disorder. 
+ 
+Holt receives As and Bs in school, however he has frequent conflicts with staff and other students: he is argumentative with his teachers, and is often involved in arguments with his peers that escalate to pushing and shouted insults.  He has received several detentions, but has never been suspended.  His teachers have been working closely with the group home staff and service providers on implementing behavioral interventions. 
+ 
+At the group home Holt is similarly argumentative with staff, but he has fewer conflicts with the boys at the group home than he does with students at school and has several friends.  He wants to try out for the school soccer team next month, and practices by himself and with other boys in the group home during most of his free time.   
+
+Holt’s case manager and service team are working to identify a more permanent and stable placement for him and implementing service interventions to improve his behavior.  His current permanency goal is adoption, however, Holt says he has no desire to be adopted and is waiting to turn eighteen so he can “quit being told what to do”."""
+    elif who == "Jamela":
+        vignette = """Jamela is a 15-year-old African American female who is currently residing in an emergency shelter for teens. Jamela arrived to the shelter two days ago via the local police department due to a physical altercation with her mother. She arrived with scratches and bruises on her arm and face, which she claims were caused by her mother. Her mother also had some superficial injuries. Jamela reported that she and her mother began fighting after a heated argument. This is Jamela's second stay at the shelter; she was there one month ago as well due to another conflict with her mother. During Jamela's previous stay, family reunification was established and she was returned to her mother's care. They were referred for individual and family therapy, but never followed through with the treatment.
+
+Jamela was raised by her paternal grandmother from the age of five due to her mother being addicted to methamphetamines. However, Jamela's grandmother was unable to continue caring for her because Jamela's behavior was becoming too much to handle. Jamela was getting into trouble at school, including insubordination toward teachers, several suspensions for fighting with her peers, and some truancy problems. Her placement at this school is at risk if her behavior does not improve as the school is unable to address her behavioral needs. Jamela does not currently have any friends at school, but has had healthy relationships in the past. Jamela's grades were always mostly in the B+ - A- range. 
+
+Jamela also had problems at her grandmother's house because she was not following any of the rules. She was talking back and grandmother reported that she always had a bad attitude. Eventually her grandmother sent her to live with her mother, her mother's boyfriend, and her aunt. This was three months ago. Since then, Jamela and her mother have been arguing constantly, and Jamela is continually oppositional and defiant. 
+
+Jamela seems to lose control of her emotions when she gets in an argument, and others are aware of this. Jamela is at risk of being removed from her household again due to the physical fighting between her and her mother The police aren't worried about significant injury, however she is at risk of being harmed by her mother again. Jamela switched to an alternative high school for students with behavioral problems. She is still having the same issues she was having at her previous school. Her aunt suggests that Jamela is acting up intentionally for attention from her mother. Her mother reports that she and her boyfriend are recovering addicts and that they have been sober for six months. 
+
+Jamela's mother is the only one in the household who works. She is employed at a convenience store. Jamela's aunt is usually the one who cares for her in the evenings after school. Jamela's mother has trouble understanding her daughter, and notable deficits exist in her understanding of Jamela's strengths and needs. She has trouble supervising and disciplining Jamela, which allows her to get into more trouble.
+
+Jamela likes to journal and write short stories. She keeps a collection of all her writing. Apart from this hobby, Jamela is having moderate difficulty with appropriate use of her spare time. She normally uses it to get into trouble. Jamela wants to go to school for hair dressing and eventually own her own salon. She remains generally optimistic about the future in this sense. Jamela does not have any cultural difficulties.
+"""
+    else: 
+        print("wrong name")
+    
+    return vignette
